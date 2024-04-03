@@ -1,0 +1,19 @@
+weightt=float(input("Please enter your weight in unit kilograms: "))
+heightt=float(input("Please enter your height in unit meters: "))
+
+bmi=weightt/(heightt**2)
+
+print("Your BMI is: ")
+print(bmi)
+if bmi < 18.5:
+    print("You are underweight")
+    print("You have having minimal health risk")
+elif 18.5 <= bmi < 25:
+    print("You are normal weight")
+    print("You have very low health risk")
+elif 25 <= bmi <30:
+    print("You are overweight")
+    print("You are having high health risk")
+else:
+    print("You are having obesity")
+                
